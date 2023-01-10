@@ -134,23 +134,23 @@ a:not(.btn) {
 
 #overlay {
     display: none;
-    position: fixed; 
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.8);
-    z-index: 1; 
+    z-index: 1;
 }
 
 #modal {
-    position: fixed; 
+    position: fixed;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%); 
-    background: white; 
-    padding: 20px; 
-    z-index: 2; 
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    z-index: 2;
 }
 
 #close-button {
@@ -221,6 +221,7 @@ a.btn-cta p {
     font-weight: 700;
     margin-bottom: 0;
 }
+
 .text-red {
     color: red;
 }
@@ -544,6 +545,7 @@ footer>[class^="col-"]:first-child span {
         left: -20%;
         background-image: url(/assets/img/cta-arrow-right.png);
     }
+
     .btn-cta:not(.no-arrows)::after {
         right: -20%;
         background-image: url(/assets/img/cta-arrow-left.png);
