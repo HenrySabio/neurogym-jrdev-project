@@ -151,6 +151,7 @@ a:not(.btn) {
     background: white;
     padding: 20px;
     z-index: 2;
+    width: 90%;
 }
 
 #close-button {
@@ -162,7 +163,6 @@ a:not(.btn) {
     padding: 5px 10px;
     border: none;
 }
-
 
 .module.no-padding {
     padding: 0;
@@ -526,7 +526,6 @@ footer>[class^="col-"]:first-child span {
         font-size: 18px;
     }
 
-    /* inline images as psuedo before and after elements for .btn-cta */
     .btn-cta:not(.no-arrows)::before,
     .btn-cta:not(.no-arrows)::after {
         content: '';
@@ -549,6 +548,11 @@ footer>[class^="col-"]:first-child span {
     .btn-cta:not(.no-arrows)::after {
         right: -20%;
         background-image: url(/assets/img/cta-arrow-left.png);
+    }
+
+
+    #modal {
+        width: 50%;
     }
 }
 
